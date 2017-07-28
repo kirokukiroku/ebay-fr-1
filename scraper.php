@@ -14,7 +14,7 @@ $dom->load($html);
 
 // Count
 $count = $dom->find(".rcnt");
-echo $count;
+print_r($count);
 
 // print_r($dom->find("table.list"));
 //
